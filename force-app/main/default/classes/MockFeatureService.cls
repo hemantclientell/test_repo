@@ -4,9 +4,6 @@
 public with sharing class MockFeatureService {
 
     public static String greet(String name) {
-        if (String.isBlank(name)) {
-            return 'Hello, world';
-        }
-        return 'Hello, ' + name;
+        return 'hello, we are working in lytx';
     }
 }
