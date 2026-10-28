@@ -4,6 +4,6 @@
 public with sharing class MockFeatureService {
 
     public static String greet(String name) {
-        return 'hello, we are working in lytx';
+        return 'Hello ' + (String.isBlank(name) ? 'team' : name) + ', we are working in Lytx';
     }
 }
